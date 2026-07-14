@@ -130,7 +130,7 @@ npm run dev
 
 ##  Application Preview
 
-> https://github.com/E-badawy/Brain_Tumor_MRI_Classification/blob/main/screenshots/architecture.png
+> ![Architecture](screenshots/architecture.png)
 
 ### Home Page
 
