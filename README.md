@@ -128,8 +128,9 @@ npm run dev
 
 ---
 
-## Application Preview
+##  Application Preview
 
+> screenshots.png
 
 ### Home Page
 
@@ -159,7 +160,7 @@ The complete training workflow is available in the `notebooks` directory and inc
 
 ---
 
-## Future Improvements
+## 🔮 Future Improvements
 
 - Transfer learning (ResNet50, EfficientNetB0, MobileNetV2)
 - Hyperparameter optimization
