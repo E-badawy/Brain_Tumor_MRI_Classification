@@ -1,0 +1,25 @@
+services:
+
+  backend:
+
+    build: ./backend
+
+    container_name: brain_tumor_backend
+
+    ports:
+      - "8000:8000"
+
+    volumes:
+      - ./backend/app/static:/app/app/static
+
+  frontend:
+
+    build: ./frontend
+
+    container_name: brain_tumor_frontend
+
+    ports:
+      - "5173:5173"
+
+    depends_on:
+      - backend

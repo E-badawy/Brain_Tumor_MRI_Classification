@@ -1,0 +1,42 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# ==========================
+# React
+# ==========================
+frontend/node_modules/
+frontend/dist/
+
+# ==========================
+# Environment Variables
+# ==========================
+.env
+
+# ==========================
+# Dataset (DO NOT PUSH)
+# ==========================
+data/
+dataset/
+Training/
+Testing/
+
+# ==========================
+# OS Files
+# ==========================
+.DS_Store
+Thumbs.db
