@@ -73,9 +73,9 @@ def predict(image: Image.Image):
     )
     BACKEND_URL = "https://brain-tumor-mri-classification-k8sx.onrender.com"
 
-return {
+    return {
     "prediction": CLASS_NAMES[predicted_index],
     "confidence": confidence,
     "probabilities": probabilities,
     "gradcam": f"{BACKEND_URL}/static/gradcam/{filename}",
-}
+    }
