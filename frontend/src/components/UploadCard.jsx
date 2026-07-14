@@ -25,7 +25,7 @@ export default function UploadCard() {
 
         try {
 
-            const response = await fetch("public/sample/glioma1.jpg");
+            const response = await fetch("/sample/glioma1.jpg");
 
             const blob = await response.blob();
 
