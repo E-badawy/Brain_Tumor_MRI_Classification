@@ -340,7 +340,7 @@ export default function PredictionCard({
                         <div className="rounded-2xl overflow-hidden border shadow">
 
                             <img
-                                src={`http://127.0.0.1:8000${result.gradcam}`}
+                                src={result.gradcam}
                                 alt="Grad-CAM"
                                 className="w-full object-cover"
                             />
