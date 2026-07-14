@@ -130,7 +130,7 @@ npm run dev
 
 ##  Application Preview
 
-> screenshots.png
+> architecture.png
 
 ### Home Page
 
